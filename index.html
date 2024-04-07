@@ -6,10 +6,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VASISHT T V</title>
+   <link rel="stylesheet" href="style.css">
    
 </head>
 <body >
-    
+  
+  
+  
+
 <header class="bg-dark p-3 pl-5" style="position: fixed; width: 100%; z-index: 1;">
     <div class="row">
 <div class="col-md-6 col-9 text-white my-auto">
@@ -89,7 +93,7 @@
   <div class="card text-center p-3 bg-dark text-white mx-auto mt-3"style=" height: 26em;"  >
     <div class="text-center">
     <img   class="card-img-top text-center  " src="https://media.licdn.com/dms/image/D4D12AQErV5S_buj95w/article-cover_image-shrink_600_2000/0/1662363673907?e=2147483647&v=beta&t=FLqEHqQ_zKwj_8qH6Thrac6b2KhPN9yLjxHf0bOxw1A" style="width: 15rem; height: 15rem; " alt="">
-  </div>
+  </div>      
     <div class="card-body">
       <h5 class="card-title">website buiding</h5>
       <p class="card-text">creating websites at reasonable price.</p>
@@ -176,39 +180,38 @@
   <h1 class="text-center">Contact Me</h1>
 
   <div class="row pt-5">
-    <div class="col-md-12 ">
+    <div class="col-md-12 form-container">
 
 
-
-      <form>
+      <form id="form">
         <div class="form-row">
-          <div class="form-group col-md-6">
+          <div class="form-group col-md-6 " >
             
-            <input type="text" class="form-control" placeholder="Name" required>
+            <input type="text" class="form-control" placeholder="Name" required name="name">
           </div>
           <div class="form-group col-md-6">
            
-            <input type="email" class="form-control" id="inputPassword4" placeholder="Email" required>
+            <input type="email" class="form-control" id="inputPassword4" placeholder="Email" required name="email">
           </div>
         </div>
         <div class="form-group">
           
-          <input type="tel" class="form-control" id="inputAddress" placeholder="mob" required>
+          <input type="tel" class="form-control" id="inputmob" placeholder="mob" required name="mob">
         </div>
         
-         <textarea class="form-control"  placeholder="write your thoughts" cols="30" rows="10" required></textarea>
-        </form>
+         <textarea class="form-control"  placeholder="write your thoughts" cols="30" rows="10" required name="para"></textarea>
+        
         <div class="form-group text-center mt-2">
         
-       <a href=" https://wa.me/7356289776"><button type="submit" class="btn btn-primary  " style="width: 80%;">connect with me on whatsapp <i class="fa-brands fa-whatsapp"></i></button></a> 
+       <a href=" https://wa.me/7356289776"><button type="submit" class="btn btn-primary  " style="width: 80%;">connect with me on whatsapp <i class="fa-brands fa-whatsapp" ></i></button></a> 
         </div>
       
       
-    </div>
+    
+  </form>
 
 
-
-
+</div>
 
 
 
@@ -238,9 +241,14 @@
 </footer>
 
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src=" https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/16221ea2d2.js" crossorigin="anonymous"></script>
+
+<script src="script.js"></script>
+
 </body>
 </html>
